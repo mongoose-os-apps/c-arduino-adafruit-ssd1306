@@ -7,8 +7,8 @@
 #include <Adafruit_SSD1306.h>
 
 #include "common/cs_dbg.h"
-#include "fw/src/mgos_app.h"
-#include "fw/src/mgos_timers.h"
+#include "mgos_app.h"
+#include "mgos_timers.h"
 
 Adafruit_SSD1306 *d1 = nullptr, *d2 = nullptr;
 
